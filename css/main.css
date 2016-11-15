@@ -3,7 +3,12 @@ html {
 }
 
 .masthead {
-
+  background-image: url("../assets/leaf-bg.svg");
+  background-size: 64px auto;
+  background-color: #588477;
+  border-top: solid 3px #2d5a4d;
+  border-bottom: solid 3px #2d5a4d;
+  color: #fff;
 }
 
 .logo {
@@ -14,20 +19,41 @@ html {
   text-align: center;
 }
 
+.nav li {
+  border: solid 3px #2d5a4d;
+  border-radius: 8px;
+  background-color: #467366;
+  margin-bottom: .5rem;
+}
+
 .nav a {
   text-decoration: none;
+  color: #fff;
 }
 
 .nav a:hover {
-
+  background-color: #145b1d;
 }
 
 .banner {
-
+  background-image: url("../assets/banner.jpg");
+  background-size: 1440px auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 10rem;
 }
 
 .banner-content {
+  color: #fff;
+  background-image: url("../assets/two-leaves.svg");
+  background-repeat: no-repeat;
+  background-size: 75px;
+  background-position: top 10px left 10px;
+  padding-top: 1rem;
+}
 
+p {
+  padding-top: 5rem;
 }
 
 @media only screen and (min-width: 60em) {
